@@ -1,0 +1,67 @@
+<RCC>
+    <qresource prefix="/actions/control/">
+        <file alias="add">assets/icons/add_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="drop_up">assets/icons/arrow_drop_up_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="calendar">assets/icons/calendar_month_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="close">assets/icons/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="copy">assets/icons/content_copy_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="list">assets/icons/list_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="logout">assets/icons/logout_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="menu">assets/icons/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="search">assets/icons/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="vertical_3_dots">assets/icons/more_vert_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="refresh">assets/icons/refresh_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="lock">assets/icons/lock_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="sort">assets/icons/sort_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="drop_down">assets/icons/arrow_drop_down_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="chevron_left">assets/icons/chevron_left_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="chevron_right">assets/icons/chevron_right_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="double_arrow_left">assets/icons/keyboard_double_arrow_left_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="double_arrow_right">assets/icons/keyboard_double_arrow_right_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="filter">assets/icons/tune_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="clear_all">assets/icons/clear_all_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="drop_left">assets/icons/arrow_left_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="drop_right">assets/icons/arrow_right_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="left_panel_close">assets/icons/left_panel_close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="minimize">assets/icons/minimize_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="fullscreen">assets/icons/fullscreen_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="side_navigation">assets/icons/side_navigation_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="select_window">assets/icons/select_window_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="left_panel_open">assets/icons/left_panel_open_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="icons/placeholder.svg">assets/icons/placeholder.svg</file>
+    </qresource>
+    <qresource prefix="/actions/general/">
+        <file alias="dollar_sign">assets/icons/attach_money_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="dashboard">assets/icons/dashboard_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="help">assets/icons/help_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="info">assets/icons/info_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="monitoring">assets/icons/monitoring_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="analytics">assets/icons/analytics_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="pin_road">assets/icons/pin_road_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="speed_truck">assets/icons/delivery_truck_speed_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="receipt_off">assets/icons/receipt_long_off_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="person_alert">assets/icons/person_alert_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="settings">assets/icons/settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    </qresource>
+    <qresource prefix="/icons/modules/">
+        <file alias="description">assets/icons/description_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="folder_open">assets/icons/folder_open_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="truck">assets/icons/local_shipping_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="package">assets/icons/package_2_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="circle_dollar_sign">assets/icons/paid_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="cash">assets/icons/payments_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="percent">assets/icons/percent_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="person_book">assets/icons/person_book_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="person_shield">assets/icons/person_shield_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="receipt_long">assets/icons/receipt_long_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="security">assets/icons/security_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="ac_unit">assets/icons/ac_unit_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="road">assets/icons/road_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="route">assets/icons/route_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="location">assets/icons/location_on_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="pin_drop">assets/icons/pin_drop_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file alias="driver">assets/icons/person_4_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    </qresource>
+</RCC>

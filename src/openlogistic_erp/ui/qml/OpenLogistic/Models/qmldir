@@ -1,0 +1,2 @@
+module OpenLogistic.Models
+typeinfo OpenLogisticModels.qmltypes

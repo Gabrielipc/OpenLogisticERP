@@ -1,0 +1,75 @@
+[build-system]
+requires = ["hatchling>=1.24.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "openlogistic-erp"
+version = "0.1.0"
+description = "OpenLogisticERP migration scaffold and execution environment for MVVM refactor."
+requires-python = ">=3.10,<3.14"
+dependencies = [
+  "bcrypt==4.3.0",
+  "openpyxl==3.1.5",
+  "passlib==1.7.4",
+  "psycopg2-binary==2.9.10",
+  "PySide6==6.8.3",
+  "python-dotenv==1.1.0",
+  "requests>=2.31.0",
+  "SQLAlchemy==2.0.36",
+  "sentry-sdk==2.20.0",
+  "xlsxwriter>=3.2.0",
+  "pydantic>=2.10.0",
+  "alembic>=1.18.4",
+  "pytest>=9.0.2",
+]
+
+[project.scripts]
+openlogistic-erp = "openlogistic_erp.main:main"
+olerp = "openlogistic_erp.main:main"
+olerp-qmltypes = "openlogistic_erp.presentation.qml_typegen:main"
+olerp-compile-assets = "openlogistic_erp.ui.asset_compiler:main"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.4",
+  "pytest-mock>=3.14.0",
+  "ruff>=0.7.0",
+]
+
+[tool.uv]
+package = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/openlogistic_erp"]
+artifacts = ["src/openlogistic_erp/infrastructure/templates/factura/formato_factura.xlsx"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+exclude = [".venv", "build", "dist", "__pycache__"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+ignore = ["E501"]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+# Exclusiones para que no analice las librerías de Qt internamente
+exclude = [
+    "**/node_modules",
+    "**/__pycache__",
+    ".venv",
+    "build",
+    "dist",
+    "src/legacy",
+    "**/.*"
+]
+
+# Tu "escudo" contra los errores falsos de Qt
+typeCheckingMode = "basic"
+reportAttributeAccessIssue = "none"
+reportMissingTypeStubs = false
+# Asegura que analice el código de las librerías instaladas
+useLibraryCodeForTypes = true
