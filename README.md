@@ -6,6 +6,11 @@ OpenLogisticERP is a desktop ERP application for logistics operations, built wit
 
 This repository was published as a clean initial public release from a previously private development history.
 
+<img width="1915" height="1029" alt="olerp" src="https://github.com/user-attachments/assets/7831f4fb-a738-4e4b-85b6-a087f3f5f105" />
+
+<img width="1919" height="1020" alt="olerp2" src="https://github.com/user-attachments/assets/ef34f22c-4538-464a-bf7e-55bf34f8a797" />
+
+
 ## Features
 
 - Desktop application built with PySide6 and QML.
